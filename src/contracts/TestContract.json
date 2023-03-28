@@ -1,0 +1,31 @@
+{
+  "contracts": {
+    "TestContract": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "name": "_targetContract",
+              "type": "address"
+            }
+          ],
+          "payable": true,
+          "stateMutability": "payable",
+          "type": "constructor"
+        },
+        {
+          "payable": true,
+          "stateMutability": "payable",
+          "type": "fallback"
+        }
+      ],
+      "bin": "608060405260405160208060a883398101806040528101908080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505060358060736000396000f3006080604052600080fd00a165627a7a72305820aa050298e6d6c3452a27737b57a360cb7a5f9732d975902a9f6737bbb53627440029",
+      "bin-runtime": "6080604052600080fd00a165627a7a72305820aa050298e6d6c3452a27737b57a360cb7a5f9732d975902a9f6737bbb53627440029",
+      "srcmap": "68:228:0:-;;;129:110;;;;;;;;;;;;;;;;;;;;;;;;;;;;219:15;201;;:33;;;;;;;;;;;;;;;;;;129:110;68:228;;;;;;",
+      "srcmap-runtime": "68:228:0:-;;;281:8;;",
+      "version": "0.4.25+commit.59dbf8f1",
+      "versionShort": "0.4.25",
+      "abiEncoderEnabled": false
+    }
+  }
+}
