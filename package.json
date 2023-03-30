@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "node deploy.js"
+    "deploy": ". ./geth/run-geth-docker.sh && node deploy.js"
   },
   "repository": {
     "type": "git",

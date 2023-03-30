@@ -1,0 +1,711 @@
+INFO [03-30|12:09:12.127] Starting Geth on Ethereum mainnet... 
+INFO [03-30|12:09:12.129] Bumping default cache on mainnet         provided=1024 updated=4096
+INFO [03-30|12:09:12.133] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [03-30|12:09:12.135] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+DEBUG[03-30|12:09:12.137] FS scan times                            list="42.208µs" set="39.208µs" diff="2.042µs"
+DEBUG[03-30|12:09:12.139] Sanitizing Go's GC trigger               percent=25
+INFO [03-30|12:09:12.141] Set global gas cap                       cap=50,000,000
+INFO [03-30|12:09:12.143] Allocated trie memory caches             clean=614.00MiB dirty=1024.00MiB
+INFO [03-30|12:09:12.144] Using leveldb as the backing database 
+INFO [03-30|12:09:12.146] Allocated cache and file handles         database=/App/vultron/geth/ethereum/geth/chaindata cache=2.00GiB handles=524,288
+INFO [03-30|12:09:12.171] Using LevelDB as the backing database 
+DEBUG[03-30|12:09:12.176] Chain freezer table opened               database=/App/vultron/geth/ethereum/geth/chaindata/ancient/chain table=hashes items=0 size=0.00B
+DEBUG[03-30|12:09:12.181] Chain freezer table opened               database=/App/vultron/geth/ethereum/geth/chaindata/ancient/chain table=bodies items=0 size=0.00B
+DEBUG[03-30|12:09:12.187] Chain freezer table opened               database=/App/vultron/geth/ethereum/geth/chaindata/ancient/chain table=receipts items=0 size=0.00B
+DEBUG[03-30|12:09:12.191] Chain freezer table opened               database=/App/vultron/geth/ethereum/geth/chaindata/ancient/chain table=diffs    items=0 size=0.00B
+DEBUG[03-30|12:09:12.198] Chain freezer table opened               database=/App/vultron/geth/ethereum/geth/chaindata/ancient/chain table=headers  items=0 size=0.00B
+INFO [03-30|12:09:12.199] Opened ancient database                  database=/App/vultron/geth/ethereum/geth/chaindata/ancient/chain readonly=false
+DEBUG[03-30|12:09:12.200] Current full block not old enough        number=2805 hash=7ca919..ff9400 delay=90000
+INFO [03-30|12:09:12.201] Disk storage enabled for ethash caches   dir=/App/vultron/geth/ethereum/geth/ethash count=3
+INFO [03-30|12:09:12.202] Disk storage enabled for ethash DAGs     dir=./ethereum/Ethash                      count=2
+INFO [03-30|12:09:12.204] Initialising Ethereum protocol           network=12345 dbversion=8
+INFO [03-30|12:09:12.207]  
+INFO [03-30|12:09:12.209] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [03-30|12:09:12.211] Chain ID:  12345 (unknown) 
+INFO [03-30|12:09:12.212] Consensus: Ethash (proof-of-work) 
+INFO [03-30|12:09:12.213]  
+INFO [03-30|12:09:12.215] Pre-Merge hard forks (block based): 
+INFO [03-30|12:09:12.215]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [03-30|12:09:12.216]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [03-30|12:09:12.217]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [03-30|12:09:12.218]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [03-30|12:09:12.218]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [03-30|12:09:12.219]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [03-30|12:09:12.220]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [03-30|12:09:12.222]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [03-30|12:09:12.224]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [03-30|12:09:12.225]  - London:                      #<nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [03-30|12:09:12.226]  
+INFO [03-30|12:09:12.227] The Merge is not yet available for this network! 
+INFO [03-30|12:09:12.228]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [03-30|12:09:12.229]  
+INFO [03-30|12:09:12.230] Post-Merge hard forks (timestamp based): 
+INFO [03-30|12:09:12.231]  
+INFO [03-30|12:09:12.232] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [03-30|12:09:12.233]  
+INFO [03-30|12:09:12.235] Loaded most recent local block           number=2805 hash=7ca919..ff9400 td=667,890,204 age=1d19h34m
+DEBUG[03-30|12:09:12.240] Reinjecting stale transactions           count=0
+DEBUG[03-30|12:09:12.241] Failed to add journaled transaction      err="nonce too low"
+INFO [03-30|12:09:12.243] Loaded local transaction journal         transactions=1 dropped=1
+INFO [03-30|12:09:12.244] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [03-30|12:09:12.245] Switch sync mode from snap sync to full sync 
+WARN [03-30|12:09:12.246] Sanitizing new payload timeout to default provided=0s   updated=2s
+INFO [03-30|12:09:12.247] Gasprice oracle is ignoring threshold set threshold=2
+WARN [03-30|12:09:12.249] Engine API enabled                       protocol=eth
+WARN [03-30|12:09:12.250] Engine API started but chain not configured for merge yet 
+INFO [03-30|12:09:12.251] Starting peer-to-peer node               instance=Geth/v1.11.3-stable-5ed08c47/linux-arm64/go1.20.2
+WARN [03-30|12:09:12.261] Deprecated personal namespace activated 
+INFO [03-30|12:09:12.263] New local node record                    seq=1,677,746,298,399 id=9937dddf0e731163 ip=127.0.0.1 udp=0 tcp=30303
+INFO [03-30|12:09:12.264] Started P2P networking                   self="enode://9b1bbd132eca3e0f9c465e88f19af983258159a3d30952d72ad7bfd0f7d9bbd8b5ac5c821f7e83b023115703025ec18aa0224edeeae9b25bfa5a7480cc39183a@127.0.0.1:30303?discport=0"
+DEBUG[03-30|12:09:12.263] IPCs registered                          namespaces=admin,debug,web3,eth,txpool,personal,ethash,miner,net,engine
+DEBUG[03-30|12:09:12.261] TCP listener up                          addr=[::]:30303
+INFO [03-30|12:09:12.266] IPC endpoint opened                      url=/App/vultron/geth/ethereum/geth.ipc
+DEBUG[03-30|12:09:12.269] Allowed origin(s) for WS RPC interface [http://localhost http://b706d3b4ea6b] 
+INFO [03-30|12:09:12.270] Loaded JWT secret file                   path=/App/vultron/geth/ethereum/geth/jwtsecret crc32=0x653b627d
+DEBUG[03-30|12:09:12.272] Allowed origin(s) for WS RPC interface [localhost] 
+INFO [03-30|12:09:12.273] HTTP server started                      endpoint=127.0.0.1:8545 auth=false prefix= cors= vhosts=localhost
+INFO [03-30|12:09:12.275] WebSocket enabled                        url=ws://127.0.0.1:8546
+INFO [03-30|12:09:12.276] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [03-30|12:09:12.277] HTTP server started                      endpoint=127.0.0.1:8551 auth=true  prefix= cors=localhost vhosts=localhost
+INFO [03-30|12:09:12.279] Transaction pool price threshold updated price=0
+INFO [03-30|12:09:12.280] Updated mining threads                   threads=5
+INFO [03-30|12:09:12.281] Transaction pool price threshold updated price=1,000,000,000
+INFO [03-30|12:09:12.283] Commit new sealing work                  number=2806 sealhash=3ea6ca..72a042 uncles=0 txs=0 gas=0 fees=0 elapsed="272.459µs"
+DEBUG[03-30|12:09:12.283] Loaded old ethash dataset from disk      epoch=0
+INFO [03-30|12:09:12.284] Commit new sealing work                  number=2806 sealhash=3ea6ca..72a042 uncles=0 txs=0 gas=0 fees=0 elapsed=1.715ms
+DEBUG[03-30|12:09:12.289] Loaded old ethash dataset from disk      epoch=1
+INFO [03-30|12:09:12.925] Successfully sealed new block            number=2806 sealhash=3ea6ca..72a042 hash=b29d34..720c77 elapsed=642.346ms
+INFO [03-30|12:09:12.927] "🔨 mined potential block"                number=2806 hash=b29d34..720c77
+DEBUG[03-30|12:09:12.925] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:12.925] Commit new sealing work                  number=2807 sealhash=7a5341..eae545 uncles=0 txs=0 gas=0 fees=0 elapsed="418.458µs"
+INFO [03-30|12:09:12.931] Commit new sealing work                  number=2807 sealhash=7a5341..eae545 uncles=0 txs=0 gas=0 fees=0 elapsed=5.782ms
+DEBUG[03-30|12:09:14.362] Couldn't add port mapping                proto=tcp extport=30303 intport=30303 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+INFO [03-30|12:09:14.775] Successfully sealed new block            number=2807 sealhash=7a5341..eae545 hash=74a174..61e47a elapsed=1.849s
+INFO [03-30|12:09:14.780] "🔨 mined potential block"                number=2807 hash=74a174..61e47a
+DEBUG[03-30|12:09:14.775] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:14.776] Commit new sealing work                  number=2808 sealhash=21abfd..83828c uncles=0 txs=0 gas=0 fees=0 elapsed="132.833µs"
+INFO [03-30|12:09:14.785] Commit new sealing work                  number=2808 sealhash=21abfd..83828c uncles=0 txs=0 gas=0 fees=0 elapsed=9.134ms
+INFO [03-30|12:09:14.877] Successfully sealed new block            number=2808 sealhash=21abfd..83828c hash=cf52a8..b64daf elapsed=101.934ms
+INFO [03-30|12:09:14.885] "🔨 mined potential block"                number=2808 hash=cf52a8..b64daf
+DEBUG[03-30|12:09:14.878] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:14.878] Commit new sealing work                  number=2809 sealhash=ab4bdc..7c776b uncles=0 txs=0 gas=0 fees=0 elapsed="72.333µs"
+INFO [03-30|12:09:14.889] Commit new sealing work                  number=2809 sealhash=ab4bdc..7c776b uncles=0 txs=0 gas=0 fees=0 elapsed=11.821ms
+INFO [03-30|12:09:14.987] Successfully sealed new block            number=2809 sealhash=ab4bdc..7c776b hash=e43e20..3062cd elapsed=109.452ms
+INFO [03-30|12:09:14.994] "🔨 mined potential block"                number=2809 hash=e43e20..3062cd
+DEBUG[03-30|12:09:14.987] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:14.987] Commit new sealing work                  number=2810 sealhash=a32b87..7f4e1c uncles=0 txs=0 gas=0 fees=0 elapsed="110.5µs"
+INFO [03-30|12:09:14.999] Commit new sealing work                  number=2810 sealhash=a32b87..7f4e1c uncles=0 txs=0 gas=0 fees=0 elapsed=11.338ms
+DEBUG[03-30|12:09:15.138] FS scan times                            list="78.042µs" set="27.416µs" diff="3.084µs"
+INFO [03-30|12:09:15.414] Successfully sealed new block            number=2810 sealhash=a32b87..7f4e1c hash=78e41f..fdbe1a elapsed=426.540ms
+INFO [03-30|12:09:15.416] "🔨 mined potential block"                number=2810 hash=78e41f..fdbe1a
+DEBUG[03-30|12:09:15.414] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:15.414] Commit new sealing work                  number=2811 sealhash=c98404..67785a uncles=0 txs=0 gas=0 fees=0 elapsed="111.334µs"
+INFO [03-30|12:09:15.419] Commit new sealing work                  number=2811 sealhash=c98404..67785a uncles=0 txs=0 gas=0 fees=0 elapsed=5.345ms
+INFO [03-30|12:09:16.833] Successfully sealed new block            number=2811 sealhash=c98404..67785a hash=5b90c6..5a8458 elapsed=1.420s
+INFO [03-30|12:09:16.843] "🔨 mined potential block"                number=2811 hash=5b90c6..5a8458
+DEBUG[03-30|12:09:16.834] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:16.834] Commit new sealing work                  number=2812 sealhash=5085b5..409506 uncles=0 txs=0 gas=0 fees=0 elapsed="135.167µs"
+INFO [03-30|12:09:16.848] Commit new sealing work                  number=2812 sealhash=5085b5..409506 uncles=0 txs=0 gas=0 fees=0 elapsed=14.050ms
+DEBUG[03-30|12:09:17.504] Served eth_accounts                      reqid=6500716774447068 duration="201.75µs"
+DEBUG[03-30|12:09:17.512] FS scan times                            list="72.75µs"  set="24µs"     diff="2.417µs"
+INFO [03-30|12:09:17.902] Successfully sealed new block            number=2812 sealhash=5085b5..409506 hash=50ac52..6d4581 elapsed=1.068s
+INFO [03-30|12:09:17.912] "🔨 mined potential block"                number=2812 hash=50ac52..6d4581
+DEBUG[03-30|12:09:17.902] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:17.902] Commit new sealing work                  number=2813 sealhash=6e2c4a..0ad9cc uncles=0 txs=0 gas=0 fees=0 elapsed="138µs"
+INFO [03-30|12:09:17.917] Commit new sealing work                  number=2813 sealhash=6e2c4a..0ad9cc uncles=0 txs=0 gas=0 fees=0 elapsed=14.561ms
+DEBUG[03-30|12:09:18.122] Served personal_unlockAccount            reqid=6500716774447069 duration=610.446959ms
+DEBUG[03-30|12:09:18.130] Served eth_gasPrice                      reqid=6500716774447070 duration="852µs"
+INFO [03-30|12:09:18.134] Successfully sealed new block            number=2813 sealhash=6e2c4a..0ad9cc hash=ffecb9..eb90ed elapsed=231.952ms
+DEBUG[03-30|12:09:18.134] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:18.135] "🔗 block reached canonical chain"        number=2806 hash=b29d34..720c77
+INFO [03-30|12:09:18.138] Commit new sealing work                  number=2814 sealhash=a6785b..8e9e18 uncles=0 txs=0 gas=0 fees=0 elapsed=3.373ms
+INFO [03-30|12:09:18.139] Commit new sealing work                  number=2814 sealhash=a6785b..8e9e18 uncles=0 txs=0 gas=0 fees=0 elapsed=4.162ms
+INFO [03-30|12:09:18.140] "🔨 mined potential block"                number=2813 hash=ffecb9..eb90ed
+DEBUG[03-30|12:09:18.142] Executing EVM call finished              runtime="112.084µs"
+DEBUG[03-30|12:09:18.143] Executing EVM call finished              runtime="33.917µs"
+DEBUG[03-30|12:09:18.143] Executing EVM call finished              runtime="32.5µs"
+DEBUG[03-30|12:09:18.144] Executing EVM call finished              runtime="34.5µs"
+DEBUG[03-30|12:09:18.146] Executing EVM call finished              runtime="58.25µs"
+DEBUG[03-30|12:09:18.146] Executing EVM call finished              runtime="33.834µs"
+DEBUG[03-30|12:09:18.148] Executing EVM call finished              runtime="39.416µs"
+DEBUG[03-30|12:09:18.148] Executing EVM call finished              runtime="39.375µs"
+DEBUG[03-30|12:09:18.149] Executing EVM call finished              runtime="150.167µs"
+DEBUG[03-30|12:09:18.152] Executing EVM call finished              runtime="52.292µs"
+DEBUG[03-30|12:09:18.153] Executing EVM call finished              runtime="71.041µs"
+DEBUG[03-30|12:09:18.154] Executing EVM call finished              runtime="56.292µs"
+DEBUG[03-30|12:09:18.155] Executing EVM call finished              runtime="53.25µs"
+DEBUG[03-30|12:09:18.157] Executing EVM call finished              runtime="65.792µs"
+DEBUG[03-30|12:09:18.158] Executing EVM call finished              runtime="93.167µs"
+DEBUG[03-30|12:09:18.159] Executing EVM call finished              runtime="134.834µs"
+DEBUG[03-30|12:09:18.160] Executing EVM call finished              runtime="57.5µs"
+DEBUG[03-30|12:09:18.161] Executing EVM call finished              runtime="53.542µs"
+DEBUG[03-30|12:09:18.162] Executing EVM call finished              runtime="44.083µs"
+DEBUG[03-30|12:09:18.163] Executing EVM call finished              runtime="46.625µs"
+DEBUG[03-30|12:09:18.164] Executing EVM call finished              runtime="27.958µs"
+DEBUG[03-30|12:09:18.165] Executing EVM call finished              runtime="30.375µs"
+DEBUG[03-30|12:09:18.167] Executing EVM call finished              runtime="54.5µs"
+DEBUG[03-30|12:09:18.168] Executing EVM call finished              runtime="51.209µs"
+DEBUG[03-30|12:09:18.170] Executing EVM call finished              runtime="155.25µs"
+DEBUG[03-30|12:09:18.171] Served eth_estimateGas                   reqid=6500716774447071 duration=28.874417ms
+DEBUG[03-30|12:09:18.175] Served eth_getBlockByNumber              reqid=6500716774447072 duration="101.959µs"
+DEBUG[03-30|12:09:18.175] Served eth_gasPrice                      reqid=6500716774447073 duration="748µs"
+DEBUG[03-30|12:09:18.178] Executing EVM call finished              runtime="71.917µs"
+DEBUG[03-30|12:09:18.179] Executing EVM call finished              runtime="58µs"
+DEBUG[03-30|12:09:18.181] Executing EVM call finished              runtime="55.042µs"
+DEBUG[03-30|12:09:18.182] Executing EVM call finished              runtime="45.958µs"
+DEBUG[03-30|12:09:18.183] Executing EVM call finished              runtime="45.25µs"
+DEBUG[03-30|12:09:18.184] Executing EVM call finished              runtime="45.75µs"
+DEBUG[03-30|12:09:18.185] Executing EVM call finished              runtime="30.417µs"
+DEBUG[03-30|12:09:18.188] Executing EVM call finished              runtime="62.25µs"
+DEBUG[03-30|12:09:18.189] Executing EVM call finished              runtime="38.041µs"
+DEBUG[03-30|12:09:18.190] Executing EVM call finished              runtime="39.75µs"
+DEBUG[03-30|12:09:18.191] Executing EVM call finished              runtime="33µs"
+DEBUG[03-30|12:09:18.192] Executing EVM call finished              runtime="67.5µs"
+DEBUG[03-30|12:09:18.194] Executing EVM call finished              runtime="46.75µs"
+DEBUG[03-30|12:09:18.195] Executing EVM call finished              runtime="36.625µs"
+DEBUG[03-30|12:09:18.196] Executing EVM call finished              runtime="39.042µs"
+DEBUG[03-30|12:09:18.197] Executing EVM call finished              runtime="36.542µs"
+DEBUG[03-30|12:09:18.198] Executing EVM call finished              runtime="67.959µs"
+DEBUG[03-30|12:09:18.201] Executing EVM call finished              runtime="63.833µs"
+DEBUG[03-30|12:09:18.202] Executing EVM call finished              runtime="68.5µs"
+DEBUG[03-30|12:09:18.203] Executing EVM call finished              runtime="113.167µs"
+DEBUG[03-30|12:09:18.204] Executing EVM call finished              runtime="46.042µs"
+DEBUG[03-30|12:09:18.206] Executing EVM call finished              runtime="62.042µs"
+DEBUG[03-30|12:09:18.207] Executing EVM call finished              runtime="84.625µs"
+DEBUG[03-30|12:09:18.208] Executing EVM call finished              runtime="45.667µs"
+DEBUG[03-30|12:09:18.209] Executing EVM call finished              runtime="77.292µs"
+INFO [03-30|12:09:18.210] Setting new local account                address=0x66Ed6922185F453438B70E97F57b6b16247d81ec
+INFO [03-30|12:09:18.212] Submitted contract creation              hash=0xda0a90fceef5e888a849d156a34e556d4a6a294d8936d8514ff44163d7a9f7f8 from=0x66Ed6922185F453438B70E97F57b6b16247d81ec nonce=10 contract=0xD2af379B3dCd2c859396c8fCBe501bc80b094482 value=0
+DEBUG[03-30|12:09:18.213] Served eth_sendTransaction               reqid=6500716774447074 duration=35.008584ms
+DEBUG[03-30|12:09:18.212] Transaction broadcast                    txs=1 "announce packs"=0 "announced hashes"=0 "tx packs"=0 "broadcast txs"=0
+DEBUG[03-30|12:09:18.215] Served eth_getTransactionReceipt         reqid=6500716774447075 duration="292.208µs"
+DEBUG[03-30|12:09:18.217] Served eth_subscribe                     reqid=6500716774447076 duration="32.208µs"
+INFO [03-30|12:09:18.252] Successfully sealed new block            number=2814 sealhash=a6785b..8e9e18 hash=1bd147..775efd elapsed=117.668ms
+DEBUG[03-30|12:09:18.252] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:18.252] "🔗 block reached canonical chain"        number=2807 hash=74a174..61e47a
+INFO [03-30|12:09:18.265] Commit new sealing work                  number=2815 sealhash=677ae3..9a5992 uncles=0 txs=0 gas=0 fees=0 elapsed=13.087ms
+INFO [03-30|12:09:18.266] "🔨 mined potential block"                number=2814 hash=1bd147..775efd
+INFO [03-30|12:09:18.273] Commit new sealing work                  number=2815 sealhash=4f0cd3..2f6fd6 uncles=0 txs=1 gas=88861 fees=8.8861e-05 elapsed=20.922ms
+DEBUG[03-30|12:09:18.257] Served eth_getTransactionReceipt         reqid=6500716774447077 duration="50.166µs"
+INFO [03-30|12:09:18.947] Successfully sealed new block            number=2815 sealhash=4f0cd3..2f6fd6 hash=45ede8..664042 elapsed=680.415ms
+DEBUG[03-30|12:09:18.947] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:18.947] "🔗 block reached canonical chain"        number=2808 hash=cf52a8..b64daf
+INFO [03-30|12:09:18.954] Commit new sealing work                  number=2816 sealhash=5cfa5b..63f1e2 uncles=0 txs=0 gas=0     fees=0          elapsed=7.181ms
+INFO [03-30|12:09:18.956] Commit new sealing work                  number=2816 sealhash=5cfa5b..63f1e2 uncles=0 txs=0 gas=0     fees=0          elapsed=8.653ms
+INFO [03-30|12:09:18.957] "🔨 mined potential block"                number=2815 hash=45ede8..664042
+DEBUG[03-30|12:09:18.950] Served eth_getTransactionReceipt         reqid=6500716774447078 duration="264.666µs"
+DEBUG[03-30|12:09:18.969] Served eth_getCode                       reqid=6500716774447079 duration="89.209µs"
+DEBUG[03-30|12:09:18.972] Served eth_unsubscribe                   reqid=6500716774447080 duration="31.333µs"
+DEBUG[03-30|12:09:21.151] FS scan times                            list="83.917µs" set="26.791µs" diff="2.959µs"
+INFO [03-30|12:09:21.897] Successfully sealed new block            number=2816 sealhash=5cfa5b..63f1e2 hash=9d1d4e..909c06 elapsed=2.949s
+DEBUG[03-30|12:09:21.897] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:21.897] "🔗 block reached canonical chain"        number=2809 hash=e43e20..3062cd
+INFO [03-30|12:09:21.901] Commit new sealing work                  number=2817 sealhash=afb01f..c234dd uncles=0 txs=0 gas=0     fees=0          elapsed=3.859ms
+INFO [03-30|12:09:21.902] Commit new sealing work                  number=2817 sealhash=afb01f..c234dd uncles=0 txs=0 gas=0     fees=0          elapsed=5.114ms
+INFO [03-30|12:09:21.904] "🔨 mined potential block"                number=2816 hash=9d1d4e..909c06
+INFO [03-30|12:09:22.587] Successfully sealed new block            number=2817 sealhash=afb01f..c234dd hash=1eeba0..4b3af8 elapsed=690.423ms
+DEBUG[03-30|12:09:22.587] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:22.588] "🔗 block reached canonical chain"        number=2810 hash=78e41f..fdbe1a
+INFO [03-30|12:09:22.592] Commit new sealing work                  number=2818 sealhash=e8fd08..85f9ec uncles=0 txs=0 gas=0     fees=0          elapsed=4.243ms
+INFO [03-30|12:09:22.593] Commit new sealing work                  number=2818 sealhash=e8fd08..85f9ec uncles=0 txs=0 gas=0     fees=0          elapsed=5.400ms
+INFO [03-30|12:09:22.594] "🔨 mined potential block"                number=2817 hash=1eeba0..4b3af8
+DEBUG[03-30|12:09:24.154] FS scan times                            list="87.584µs" set="30.875µs" diff="3.291µs"
+INFO [03-30|12:09:24.519] Successfully sealed new block            number=2818 sealhash=e8fd08..85f9ec hash=bb805d..bf5de7 elapsed=1.931s
+INFO [03-30|12:09:24.519] "🔗 block reached canonical chain"        number=2811 hash=5b90c6..5a8458
+INFO [03-30|12:09:24.522] Commit new sealing work                  number=2819 sealhash=bd7426..05150b uncles=0 txs=0 gas=0     fees=0          elapsed=2.658ms
+INFO [03-30|12:09:24.523] "🔨 mined potential block"                number=2818 hash=bb805d..bf5de7
+DEBUG[03-30|12:09:24.519] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:24.526] Commit new sealing work                  number=2819 sealhash=bd7426..05150b uncles=0 txs=0 gas=0     fees=0          elapsed=6.689ms
+INFO [03-30|12:09:25.896] Successfully sealed new block            number=2819 sealhash=bd7426..05150b hash=391ffe..cd173e elapsed=1.377s
+DEBUG[03-30|12:09:25.897] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:25.897] "🔗 block reached canonical chain"        number=2812 hash=50ac52..6d4581
+INFO [03-30|12:09:25.908] Commit new sealing work                  number=2820 sealhash=f74d57..d417d7 uncles=0 txs=0 gas=0     fees=0          elapsed=11.220ms
+INFO [03-30|12:09:25.910] Commit new sealing work                  number=2820 sealhash=f74d57..d417d7 uncles=0 txs=0 gas=0     fees=0          elapsed=13.866ms
+INFO [03-30|12:09:25.912] "🔨 mined potential block"                number=2819 hash=391ffe..cd173e
+INFO [03-30|12:09:26.468] Successfully sealed new block            number=2820 sealhash=f74d57..d417d7 hash=827d82..42965e elapsed=571.421ms
+INFO [03-30|12:09:26.468] "🔗 block reached canonical chain"        number=2813 hash=ffecb9..eb90ed
+INFO [03-30|12:09:26.471] Commit new sealing work                  number=2821 sealhash=bc99f8..78f58a uncles=0 txs=0 gas=0     fees=0          elapsed=2.649ms
+INFO [03-30|12:09:26.472] "🔨 mined potential block"                number=2820 hash=827d82..42965e
+DEBUG[03-30|12:09:26.468] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:26.474] Commit new sealing work                  number=2821 sealhash=bc99f8..78f58a uncles=0 txs=0 gas=0     fees=0          elapsed=5.632ms
+DEBUG[03-30|12:09:27.156] FS scan times                            list="84.667µs" set="26.708µs" diff="2.709µs"
+INFO [03-30|12:09:29.170] Successfully sealed new block            number=2821 sealhash=bc99f8..78f58a hash=36f8dc..fdfdd0 elapsed=2.702s
+DEBUG[03-30|12:09:29.171] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:29.171] "🔗 block reached canonical chain"        number=2814 hash=1bd147..775efd
+INFO [03-30|12:09:29.181] Commit new sealing work                  number=2822 sealhash=e40e3a..cb2572 uncles=0 txs=0 gas=0     fees=0          elapsed=10.569ms
+INFO [03-30|12:09:29.183] Commit new sealing work                  number=2822 sealhash=e40e3a..cb2572 uncles=0 txs=0 gas=0     fees=0          elapsed=12.275ms
+INFO [03-30|12:09:29.184] "🔨 mined potential block"                number=2821 hash=36f8dc..fdfdd0
+INFO [03-30|12:09:29.627] Successfully sealed new block            number=2822 sealhash=e40e3a..cb2572 hash=af3528..f4fd9e elapsed=456.678ms
+INFO [03-30|12:09:29.628] "🔗 block reached canonical chain"        number=2815 hash=45ede8..664042
+INFO [03-30|12:09:29.631] Commit new sealing work                  number=2823 sealhash=815a3a..a64fda uncles=0 txs=0 gas=0     fees=0          elapsed=3.124ms
+INFO [03-30|12:09:29.633] "🔨 mined potential block"                number=2822 hash=af3528..f4fd9e
+DEBUG[03-30|12:09:29.628] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:29.634] Commit new sealing work                  number=2823 sealhash=815a3a..a64fda uncles=0 txs=0 gas=0     fees=0          elapsed=6.961ms
+INFO [03-30|12:09:29.971] Successfully sealed new block            number=2823 sealhash=815a3a..a64fda hash=9e857e..988887 elapsed=343.332ms
+DEBUG[03-30|12:09:29.971] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:29.971] "🔗 block reached canonical chain"        number=2816 hash=9d1d4e..909c06
+INFO [03-30|12:09:29.975] Commit new sealing work                  number=2824 sealhash=ed7924..3e876b uncles=0 txs=0 gas=0     fees=0          elapsed=3.566ms
+INFO [03-30|12:09:29.977] Commit new sealing work                  number=2824 sealhash=ed7924..3e876b uncles=0 txs=0 gas=0     fees=0          elapsed=5.608ms
+INFO [03-30|12:09:29.978] "🔨 mined potential block"                number=2823 hash=9e857e..988887
+INFO [03-30|12:09:30.116] Successfully sealed new block            number=2824 sealhash=ed7924..3e876b hash=4d9680..37ab42 elapsed=144.456ms
+DEBUG[03-30|12:09:30.116] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:30.116] "🔗 block reached canonical chain"        number=2817 hash=1eeba0..4b3af8
+INFO [03-30|12:09:30.126] Commit new sealing work                  number=2825 sealhash=3e5a81..4559ba uncles=0 txs=0 gas=0     fees=0          elapsed=9.996ms
+INFO [03-30|12:09:30.126] "🔨 mined potential block"                number=2824 hash=4d9680..37ab42
+INFO [03-30|12:09:30.128] Commit new sealing work                  number=2825 sealhash=3e5a81..4559ba uncles=0 txs=0 gas=0     fees=0          elapsed=12.405ms
+DEBUG[03-30|12:09:30.157] FS scan times                            list="75.375µs" set="26.958µs" diff="2.917µs"
+DEBUG[03-30|12:09:33.161] FS scan times                            list="89.833µs" set="28.542µs" diff="3.375µs"
+INFO [03-30|12:09:34.423] Successfully sealed new block            number=2825 sealhash=3e5a81..4559ba hash=57d40d..9baea2 elapsed=4.307s
+DEBUG[03-30|12:09:34.423] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:34.423] "🔗 block reached canonical chain"        number=2818 hash=bb805d..bf5de7
+INFO [03-30|12:09:34.428] Commit new sealing work                  number=2826 sealhash=1fa4eb..495a94 uncles=0 txs=0 gas=0     fees=0          elapsed=4.621ms
+INFO [03-30|12:09:34.430] Commit new sealing work                  number=2826 sealhash=1fa4eb..495a94 uncles=0 txs=0 gas=0     fees=0          elapsed=6.515ms
+INFO [03-30|12:09:34.432] "🔨 mined potential block"                number=2825 hash=57d40d..9baea2
+DEBUG[03-30|12:09:36.164] FS scan times                            list="82.042µs" set="27.375µs" diff="2.75µs"
+INFO [03-30|12:09:36.866] Successfully sealed new block            number=2826 sealhash=1fa4eb..495a94 hash=9dc1a2..896dd6 elapsed=2.443s
+DEBUG[03-30|12:09:36.867] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:36.867] "🔗 block reached canonical chain"        number=2819 hash=391ffe..cd173e
+INFO [03-30|12:09:36.872] Commit new sealing work                  number=2827 sealhash=2d4564..2ae7a3 uncles=0 txs=0 gas=0     fees=0          elapsed=4.919ms
+INFO [03-30|12:09:36.873] Commit new sealing work                  number=2827 sealhash=2d4564..2ae7a3 uncles=0 txs=0 gas=0     fees=0          elapsed=6.342ms
+INFO [03-30|12:09:36.876] "🔨 mined potential block"                number=2826 hash=9dc1a2..896dd6
+DEBUG[03-30|12:09:39.166] FS scan times                            list="93.875µs" set="27.292µs" diff="2.708µs"
+INFO [03-30|12:09:39.412] Successfully sealed new block            number=2827 sealhash=2d4564..2ae7a3 hash=ba3e52..be9a91 elapsed=2.545s
+DEBUG[03-30|12:09:39.412] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:39.413] "🔗 block reached canonical chain"        number=2820 hash=827d82..42965e
+INFO [03-30|12:09:39.419] Commit new sealing work                  number=2828 sealhash=fb54e8..392044 uncles=0 txs=0 gas=0     fees=0          elapsed=7.058ms
+INFO [03-30|12:09:39.421] Commit new sealing work                  number=2828 sealhash=fb54e8..392044 uncles=0 txs=0 gas=0     fees=0          elapsed=8.335ms
+INFO [03-30|12:09:39.423] "🔨 mined potential block"                number=2827 hash=ba3e52..be9a91
+INFO [03-30|12:09:40.051] Successfully sealed new block            number=2828 sealhash=fb54e8..392044 hash=f30f83..95c6da elapsed=638.321ms
+INFO [03-30|12:09:40.051] "🔗 block reached canonical chain"        number=2821 hash=36f8dc..fdfdd0
+INFO [03-30|12:09:40.054] Commit new sealing work                  number=2829 sealhash=48f427..f5936f uncles=0 txs=0 gas=0     fees=0          elapsed=3.085ms
+INFO [03-30|12:09:40.056] "🔨 mined potential block"                number=2828 hash=f30f83..95c6da
+DEBUG[03-30|12:09:40.051] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:40.058] Commit new sealing work                  number=2829 sealhash=48f427..f5936f uncles=0 txs=0 gas=0     fees=0          elapsed=7.066ms
+INFO [03-30|12:09:41.637] Successfully sealed new block            number=2829 sealhash=48f427..f5936f hash=5df522..b12cde elapsed=1.585s
+DEBUG[03-30|12:09:41.637] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:41.637] "🔗 block reached canonical chain"        number=2822 hash=af3528..f4fd9e
+INFO [03-30|12:09:41.643] Commit new sealing work                  number=2830 sealhash=066aef..ea88f4 uncles=0 txs=0 gas=0     fees=0          elapsed=5.641ms
+INFO [03-30|12:09:41.644] Commit new sealing work                  number=2830 sealhash=066aef..ea88f4 uncles=0 txs=0 gas=0     fees=0          elapsed=6.942ms
+INFO [03-30|12:09:41.646] "🔨 mined potential block"                number=2829 hash=5df522..b12cde
+DEBUG[03-30|12:09:42.171] FS scan times                            list="97.084µs" set="30.083µs" diff="3.458µs"
+INFO [03-30|12:09:44.785] Successfully sealed new block            number=2830 sealhash=066aef..ea88f4 hash=1d14b5..c03c63 elapsed=3.148s
+DEBUG[03-30|12:09:44.785] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:44.785] "🔗 block reached canonical chain"        number=2823 hash=9e857e..988887
+INFO [03-30|12:09:44.797] Commit new sealing work                  number=2831 sealhash=f6864f..301542 uncles=0 txs=0 gas=0     fees=0          elapsed=11.222ms
+INFO [03-30|12:09:44.799] Commit new sealing work                  number=2831 sealhash=f6864f..301542 uncles=0 txs=0 gas=0     fees=0          elapsed=13.400ms
+INFO [03-30|12:09:44.800] "🔨 mined potential block"                number=2830 hash=1d14b5..c03c63
+DEBUG[03-30|12:09:45.175] FS scan times                            list="91.542µs" set="30.875µs" diff="3.333µs"
+INFO [03-30|12:09:45.458] Successfully sealed new block            number=2831 sealhash=f6864f..301542 hash=899e36..7a6bfc elapsed=672.842ms
+DEBUG[03-30|12:09:45.458] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:45.459] "🔗 block reached canonical chain"        number=2824 hash=4d9680..37ab42
+INFO [03-30|12:09:45.463] Commit new sealing work                  number=2832 sealhash=7db50d..071123 uncles=0 txs=0 gas=0     fees=0          elapsed=4.405ms
+INFO [03-30|12:09:45.464] Commit new sealing work                  number=2832 sealhash=7db50d..071123 uncles=0 txs=0 gas=0     fees=0          elapsed=5.258ms
+INFO [03-30|12:09:45.465] "🔨 mined potential block"                number=2831 hash=899e36..7a6bfc
+INFO [03-30|12:09:46.599] Successfully sealed new block            number=2832 sealhash=7db50d..071123 hash=7ed5ea..0935dc elapsed=1.140s
+DEBUG[03-30|12:09:46.599] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:46.599] "🔗 block reached canonical chain"        number=2825 hash=57d40d..9baea2
+INFO [03-30|12:09:46.610] Commit new sealing work                  number=2833 sealhash=b084e6..10d534 uncles=0 txs=0 gas=0     fees=0          elapsed=10.205ms
+INFO [03-30|12:09:46.611] Commit new sealing work                  number=2833 sealhash=b084e6..10d534 uncles=0 txs=0 gas=0     fees=0          elapsed=11.481ms
+INFO [03-30|12:09:46.612] "🔨 mined potential block"                number=2832 hash=7ed5ea..0935dc
+DEBUG[03-30|12:09:48.178] FS scan times                            list="78µs"     set="28.917µs" diff="2.958µs"
+DEBUG[03-30|12:09:51.181] FS scan times                            list="84.292µs" set="27.125µs" diff="2.916µs"
+INFO [03-30|12:09:51.537] Successfully sealed new block            number=2833 sealhash=b084e6..10d534 hash=d021f4..402714 elapsed=4.938s
+DEBUG[03-30|12:09:51.537] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:51.538] "🔗 block reached canonical chain"        number=2826 hash=9dc1a2..896dd6
+INFO [03-30|12:09:51.542] Commit new sealing work                  number=2834 sealhash=a888cb..0d4e80 uncles=0 txs=0 gas=0     fees=0          elapsed=4.242ms
+INFO [03-30|12:09:51.542] Commit new sealing work                  number=2834 sealhash=a888cb..0d4e80 uncles=0 txs=0 gas=0     fees=0          elapsed=4.975ms
+INFO [03-30|12:09:51.543] "🔨 mined potential block"                number=2833 hash=d021f4..402714
+INFO [03-30|12:09:52.616] Successfully sealed new block            number=2834 sealhash=a888cb..0d4e80 hash=3cfc35..abd823 elapsed=1.078s
+INFO [03-30|12:09:52.616] "🔗 block reached canonical chain"        number=2827 hash=ba3e52..be9a91
+INFO [03-30|12:09:52.618] Commit new sealing work                  number=2835 sealhash=a17eb7..aa4900 uncles=0 txs=0 gas=0     fees=0          elapsed=2.530ms
+INFO [03-30|12:09:52.621] "🔨 mined potential block"                number=2834 hash=3cfc35..abd823
+DEBUG[03-30|12:09:52.616] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:52.622] Commit new sealing work                  number=2835 sealhash=a17eb7..aa4900 uncles=0 txs=0 gas=0     fees=0          elapsed=6.599ms
+INFO [03-30|12:09:54.023] Successfully sealed new block            number=2835 sealhash=a17eb7..aa4900 hash=e46272..6fcd23 elapsed=1.406s
+DEBUG[03-30|12:09:54.023] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:54.023] "🔗 block reached canonical chain"        number=2828 hash=f30f83..95c6da
+INFO [03-30|12:09:54.026] Commit new sealing work                  number=2836 sealhash=cf0f65..a4ef3e uncles=0 txs=0 gas=0     fees=0          elapsed=3.318ms
+INFO [03-30|12:09:54.028] Commit new sealing work                  number=2836 sealhash=cf0f65..a4ef3e uncles=0 txs=0 gas=0     fees=0          elapsed=4.551ms
+INFO [03-30|12:09:54.028] "🔨 mined potential block"                number=2835 hash=e46272..6fcd23
+INFO [03-30|12:09:54.064] Successfully sealed new block            number=2836 sealhash=cf0f65..a4ef3e hash=8bed61..4920e2 elapsed=40.409ms
+DEBUG[03-30|12:09:54.064] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:54.064] "🔗 block reached canonical chain"        number=2829 hash=5df522..b12cde
+INFO [03-30|12:09:54.069] Commit new sealing work                  number=2837 sealhash=4d0394..25d567 uncles=0 txs=0 gas=0     fees=0          elapsed=4.866ms
+INFO [03-30|12:09:54.069] "🔨 mined potential block"                number=2836 hash=8bed61..4920e2
+INFO [03-30|12:09:54.074] Commit new sealing work                  number=2837 sealhash=4d0394..25d567 uncles=0 txs=0 gas=0     fees=0          elapsed=10.329ms
+DEBUG[03-30|12:09:54.183] FS scan times                            list="85.541µs" set="30.5µs"   diff="3.417µs"
+INFO [03-30|12:09:55.674] Successfully sealed new block            number=2837 sealhash=4d0394..25d567 hash=add9cc..bd60b4 elapsed=1.610s
+DEBUG[03-30|12:09:55.674] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:55.674] "🔗 block reached canonical chain"        number=2830 hash=1d14b5..c03c63
+INFO [03-30|12:09:55.687] Commit new sealing work                  number=2838 sealhash=1d6780..c0921e uncles=0 txs=0 gas=0     fees=0          elapsed=12.332ms
+INFO [03-30|12:09:55.688] Commit new sealing work                  number=2838 sealhash=1d6780..c0921e uncles=0 txs=0 gas=0     fees=0          elapsed=13.603ms
+INFO [03-30|12:09:55.689] "🔨 mined potential block"                number=2837 hash=add9cc..bd60b4
+DEBUG[03-30|12:09:57.186] FS scan times                            list="124.666µs" set="29.834µs" diff="3.541µs"
+INFO [03-30|12:09:57.416] Successfully sealed new block            number=2838 sealhash=1d6780..c0921e hash=70a72c..bea024 elapsed=1.741s
+DEBUG[03-30|12:09:57.416] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:57.417] "🔗 block reached canonical chain"        number=2831 hash=899e36..7a6bfc
+INFO [03-30|12:09:57.423] Commit new sealing work                  number=2839 sealhash=601ccb..027112 uncles=0 txs=0 gas=0     fees=0          elapsed=6.314ms
+INFO [03-30|12:09:57.424] Commit new sealing work                  number=2839 sealhash=601ccb..027112 uncles=0 txs=0 gas=0     fees=0          elapsed=7.587ms
+INFO [03-30|12:09:57.425] "🔨 mined potential block"                number=2838 hash=70a72c..bea024
+INFO [03-30|12:09:58.860] Successfully sealed new block            number=2839 sealhash=601ccb..027112 hash=ea6fa9..44bbbc elapsed=1.443s
+DEBUG[03-30|12:09:58.860] Reinjecting stale transactions           count=0
+INFO [03-30|12:09:58.861] "🔗 block reached canonical chain"        number=2832 hash=7ed5ea..0935dc
+INFO [03-30|12:09:58.873] Commit new sealing work                  number=2840 sealhash=8b93f8..8b4775 uncles=0 txs=0 gas=0     fees=0          elapsed=12.208ms
+INFO [03-30|12:09:58.874] Commit new sealing work                  number=2840 sealhash=8b93f8..8b4775 uncles=0 txs=0 gas=0     fees=0          elapsed=13.283ms
+INFO [03-30|12:09:58.875] "🔨 mined potential block"                number=2839 hash=ea6fa9..44bbbc
+INFO [03-30|12:10:00.103] Successfully sealed new block            number=2840 sealhash=8b93f8..8b4775 hash=d10384..db619c elapsed=1.242s
+INFO [03-30|12:10:00.104] "🔗 block reached canonical chain"        number=2833 hash=d021f4..402714
+INFO [03-30|12:10:00.109] Commit new sealing work                  number=2841 sealhash=45b8dd..f29c6f uncles=0 txs=0 gas=0     fees=0          elapsed=5.249ms
+INFO [03-30|12:10:00.109] "🔨 mined potential block"                number=2840 hash=d10384..db619c
+DEBUG[03-30|12:10:00.104] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:00.112] Commit new sealing work                  number=2841 sealhash=45b8dd..f29c6f uncles=0 txs=0 gas=0     fees=0          elapsed=8.224ms
+DEBUG[03-30|12:10:00.189] FS scan times                            list="84.75µs"   set="27.417µs" diff="2.916µs"
+INFO [03-30|12:10:01.376] Successfully sealed new block            number=2841 sealhash=45b8dd..f29c6f hash=7d4ca1..31e48e elapsed=1.272s
+DEBUG[03-30|12:10:01.376] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:01.376] "🔗 block reached canonical chain"        number=2834 hash=3cfc35..abd823
+INFO [03-30|12:10:01.380] Commit new sealing work                  number=2842 sealhash=2dfc78..012b92 uncles=0 txs=0 gas=0     fees=0          elapsed=3.941ms
+INFO [03-30|12:10:01.380] Commit new sealing work                  number=2842 sealhash=2dfc78..012b92 uncles=0 txs=0 gas=0     fees=0          elapsed=4.704ms
+INFO [03-30|12:10:01.381] "🔨 mined potential block"                number=2841 hash=7d4ca1..31e48e
+INFO [03-30|12:10:01.652] Successfully sealed new block            number=2842 sealhash=2dfc78..012b92 hash=ca093d..c9894f elapsed=276.260ms
+DEBUG[03-30|12:10:01.652] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:01.652] "🔗 block reached canonical chain"        number=2835 hash=e46272..6fcd23
+INFO [03-30|12:10:01.665] Commit new sealing work                  number=2843 sealhash=145056..b8cde1 uncles=0 txs=0 gas=0     fees=0          elapsed=13.288ms
+INFO [03-30|12:10:01.666] "🔨 mined potential block"                number=2842 hash=ca093d..c9894f
+INFO [03-30|12:10:01.668] Commit new sealing work                  number=2843 sealhash=145056..b8cde1 uncles=0 txs=0 gas=0     fees=0          elapsed=16.267ms
+INFO [03-30|12:10:02.137] Successfully sealed new block            number=2843 sealhash=145056..b8cde1 hash=fa4e01..6c71df elapsed=484.533ms
+DEBUG[03-30|12:10:02.137] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:02.137] "🔗 block reached canonical chain"        number=2836 hash=8bed61..4920e2
+INFO [03-30|12:10:02.140] Commit new sealing work                  number=2844 sealhash=6b0917..3386a4 uncles=0 txs=0 gas=0     fees=0          elapsed=3.619ms
+INFO [03-30|12:10:02.141] Commit new sealing work                  number=2844 sealhash=6b0917..3386a4 uncles=0 txs=0 gas=0     fees=0          elapsed=4.559ms
+INFO [03-30|12:10:02.142] "🔨 mined potential block"                number=2843 hash=fa4e01..6c71df
+DEBUG[03-30|12:10:03.192] FS scan times                            list="82.917µs"  set="27.125µs" diff="3µs"
+INFO [03-30|12:10:03.989] Successfully sealed new block            number=2844 sealhash=6b0917..3386a4 hash=91537a..500cfd elapsed=1.852s
+DEBUG[03-30|12:10:03.989] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:03.990] "🔗 block reached canonical chain"        number=2837 hash=add9cc..bd60b4
+INFO [03-30|12:10:03.999] Commit new sealing work                  number=2845 sealhash=3cf8eb..a05e36 uncles=0 txs=0 gas=0     fees=0          elapsed=9.847ms
+INFO [03-30|12:10:04.000] Commit new sealing work                  number=2845 sealhash=3cf8eb..a05e36 uncles=0 txs=0 gas=0     fees=0          elapsed=10.703ms
+INFO [03-30|12:10:04.001] "🔨 mined potential block"                number=2844 hash=91537a..500cfd
+INFO [03-30|12:10:04.477] Successfully sealed new block            number=2845 sealhash=3cf8eb..a05e36 hash=6d887d..e303f5 elapsed=487.358ms
+DEBUG[03-30|12:10:04.477] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:04.477] "🔗 block reached canonical chain"        number=2838 hash=70a72c..bea024
+INFO [03-30|12:10:04.483] Commit new sealing work                  number=2846 sealhash=257db1..90d74c uncles=0 txs=0 gas=0     fees=0          elapsed=6.345ms
+INFO [03-30|12:10:04.485] Commit new sealing work                  number=2846 sealhash=257db1..90d74c uncles=0 txs=0 gas=0     fees=0          elapsed=7.588ms
+INFO [03-30|12:10:04.486] "🔨 mined potential block"                number=2845 hash=6d887d..e303f5
+INFO [03-30|12:10:05.176] Successfully sealed new block            number=2846 sealhash=257db1..90d74c hash=47b740..c582ff elapsed=698.934ms
+DEBUG[03-30|12:10:05.176] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:05.176] "🔗 block reached canonical chain"        number=2839 hash=ea6fa9..44bbbc
+INFO [03-30|12:10:05.180] Commit new sealing work                  number=2847 sealhash=80af92..2f9c85 uncles=0 txs=0 gas=0     fees=0          elapsed=3.340ms
+INFO [03-30|12:10:05.181] Commit new sealing work                  number=2847 sealhash=80af92..2f9c85 uncles=0 txs=0 gas=0     fees=0          elapsed=4.378ms
+INFO [03-30|12:10:05.181] "🔨 mined potential block"                number=2846 hash=47b740..c582ff
+DEBUG[03-30|12:10:06.194] FS scan times                            list="89.375µs"  set="28.334µs" diff="3.458µs"
+INFO [03-30|12:10:06.360] Successfully sealed new block            number=2847 sealhash=80af92..2f9c85 hash=3f07f1..b918bf elapsed=1.183s
+DEBUG[03-30|12:10:06.360] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:06.360] "🔗 block reached canonical chain"        number=2840 hash=d10384..db619c
+INFO [03-30|12:10:06.364] Commit new sealing work                  number=2848 sealhash=5d942b..6ba2f9 uncles=0 txs=0 gas=0     fees=0          elapsed=4.432ms
+INFO [03-30|12:10:06.366] Commit new sealing work                  number=2848 sealhash=5d942b..6ba2f9 uncles=0 txs=0 gas=0     fees=0          elapsed=5.550ms
+INFO [03-30|12:10:06.366] "🔨 mined potential block"                number=2847 hash=3f07f1..b918bf
+INFO [03-30|12:10:07.935] Successfully sealed new block            number=2848 sealhash=5d942b..6ba2f9 hash=f34578..5bf980 elapsed=1.574s
+DEBUG[03-30|12:10:07.935] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:07.935] "🔗 block reached canonical chain"        number=2841 hash=7d4ca1..31e48e
+INFO [03-30|12:10:07.948] Commit new sealing work                  number=2849 sealhash=72d03d..0388ea uncles=0 txs=0 gas=0     fees=0          elapsed=13.749ms
+INFO [03-30|12:10:07.949] Commit new sealing work                  number=2849 sealhash=72d03d..0388ea uncles=0 txs=0 gas=0     fees=0          elapsed=14.651ms
+INFO [03-30|12:10:07.950] "🔨 mined potential block"                number=2848 hash=f34578..5bf980
+DEBUG[03-30|12:10:09.198] FS scan times                            list="82.292µs"  set="28.125µs" diff="3.166µs"
+INFO [03-30|12:10:09.923] Successfully sealed new block            number=2849 sealhash=72d03d..0388ea hash=6eb135..07d651 elapsed=1.988s
+DEBUG[03-30|12:10:09.923] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:09.923] "🔗 block reached canonical chain"        number=2842 hash=ca093d..c9894f
+INFO [03-30|12:10:09.936] Commit new sealing work                  number=2850 sealhash=1c7884..88f90c uncles=0 txs=0 gas=0     fees=0          elapsed=12.940ms
+INFO [03-30|12:10:09.937] Commit new sealing work                  number=2850 sealhash=1c7884..88f90c uncles=0 txs=0 gas=0     fees=0          elapsed=14.099ms
+INFO [03-30|12:10:09.938] "🔨 mined potential block"                number=2849 hash=6eb135..07d651
+INFO [03-30|12:10:11.558] Successfully sealed new block            number=2850 sealhash=1c7884..88f90c hash=c4bb9e..6ec42b elapsed=1.634s
+DEBUG[03-30|12:10:11.558] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:11.558] "🔗 block reached canonical chain"        number=2843 hash=fa4e01..6c71df
+INFO [03-30|12:10:11.563] Commit new sealing work                  number=2851 sealhash=1a519d..57aa7b uncles=0 txs=0 gas=0     fees=0          elapsed=5.674ms
+INFO [03-30|12:10:11.564] "🔨 mined potential block"                number=2850 hash=c4bb9e..6ec42b
+INFO [03-30|12:10:11.569] Commit new sealing work                  number=2851 sealhash=1a519d..57aa7b uncles=0 txs=0 gas=0     fees=0          elapsed=11.770ms
+DEBUG[03-30|12:10:12.200] FS scan times                            list="77.583µs"  set="27.292µs" diff="2.958µs"
+DEBUG[03-30|12:10:12.201] Current full block not old enough        number=2850 hash=c4bb9e..6ec42b delay=90000
+INFO [03-30|12:10:12.629] Successfully sealed new block            number=2851 sealhash=1a519d..57aa7b hash=2a8b21..61108a elapsed=1.070s
+DEBUG[03-30|12:10:12.629] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:12.629] "🔗 block reached canonical chain"        number=2844 hash=91537a..500cfd
+INFO [03-30|12:10:12.633] Commit new sealing work                  number=2852 sealhash=38313e..887315 uncles=0 txs=0 gas=0     fees=0          elapsed=3.867ms
+INFO [03-30|12:10:12.633] "🔨 mined potential block"                number=2851 hash=2a8b21..61108a
+INFO [03-30|12:10:12.634] Commit new sealing work                  number=2852 sealhash=38313e..887315 uncles=0 txs=0 gas=0     fees=0          elapsed=5.558ms
+INFO [03-30|12:10:14.930] Successfully sealed new block            number=2852 sealhash=38313e..887315 hash=67ecd3..374216 elapsed=2.301s
+DEBUG[03-30|12:10:14.931] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:14.931] "🔗 block reached canonical chain"        number=2845 hash=6d887d..e303f5
+INFO [03-30|12:10:14.937] Commit new sealing work                  number=2853 sealhash=42e873..a031bb uncles=0 txs=0 gas=0     fees=0          elapsed=6.852ms
+INFO [03-30|12:10:14.940] Commit new sealing work                  number=2853 sealhash=42e873..a031bb uncles=0 txs=0 gas=0     fees=0          elapsed=9.258ms
+INFO [03-30|12:10:14.941] "🔨 mined potential block"                number=2852 hash=67ecd3..374216
+DEBUG[03-30|12:10:15.202] FS scan times                            list="88.709µs"  set="27.708µs" diff="3.333µs"
+INFO [03-30|12:10:15.237] Successfully sealed new block            number=2853 sealhash=42e873..a031bb hash=60b491..cb684f elapsed=306.704ms
+DEBUG[03-30|12:10:15.238] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:15.238] "🔗 block reached canonical chain"        number=2846 hash=47b740..c582ff
+INFO [03-30|12:10:15.242] Commit new sealing work                  number=2854 sealhash=43bfee..c6038a uncles=0 txs=0 gas=0     fees=0          elapsed=4.122ms
+INFO [03-30|12:10:15.243] Commit new sealing work                  number=2854 sealhash=43bfee..c6038a uncles=0 txs=0 gas=0     fees=0          elapsed=5.035ms
+INFO [03-30|12:10:15.243] "🔨 mined potential block"                number=2853 hash=60b491..cb684f
+INFO [03-30|12:10:16.000] Successfully sealed new block            number=2854 sealhash=43bfee..c6038a hash=187def..9bb926 elapsed=762.251ms
+DEBUG[03-30|12:10:16.000] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:16.000] "🔗 block reached canonical chain"        number=2847 hash=3f07f1..b918bf
+INFO [03-30|12:10:16.009] Commit new sealing work                  number=2855 sealhash=a46954..33b39a uncles=0 txs=0 gas=0     fees=0          elapsed=9.505ms
+INFO [03-30|12:10:16.011] Commit new sealing work                  number=2855 sealhash=a46954..33b39a uncles=0 txs=0 gas=0     fees=0          elapsed=10.629ms
+INFO [03-30|12:10:16.012] "🔨 mined potential block"                number=2854 hash=187def..9bb926
+INFO [03-30|12:10:16.334] Successfully sealed new block            number=2855 sealhash=a46954..33b39a hash=988397..71cd6a elapsed=334.365ms
+DEBUG[03-30|12:10:16.335] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:16.335] "🔗 block reached canonical chain"        number=2848 hash=f34578..5bf980
+INFO [03-30|12:10:16.338] Commit new sealing work                  number=2856 sealhash=aae386..733980 uncles=0 txs=0 gas=0     fees=0          elapsed=3.787ms
+INFO [03-30|12:10:16.339] Commit new sealing work                  number=2856 sealhash=aae386..733980 uncles=0 txs=0 gas=0     fees=0          elapsed=4.932ms
+INFO [03-30|12:10:16.342] "🔨 mined potential block"                number=2855 hash=988397..71cd6a
+INFO [03-30|12:10:17.191] Successfully sealed new block            number=2856 sealhash=aae386..733980 hash=fdf970..38dc76 elapsed=856.845ms
+DEBUG[03-30|12:10:17.192] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:17.192] "🔗 block reached canonical chain"        number=2849 hash=6eb135..07d651
+INFO [03-30|12:10:17.210] Commit new sealing work                  number=2857 sealhash=f13f36..8a4364 uncles=0 txs=0 gas=0     fees=0          elapsed=18.693ms
+INFO [03-30|12:10:17.210] "🔨 mined potential block"                number=2856 hash=fdf970..38dc76
+INFO [03-30|12:10:17.212] Commit new sealing work                  number=2857 sealhash=f13f36..8a4364 uncles=0 txs=0 gas=0     fees=0          elapsed=20.840ms
+DEBUG[03-30|12:10:18.205] FS scan times                            list="97µs"      set="27.667µs" diff="2.75µs"
+INFO [03-30|12:10:18.470] Successfully sealed new block            number=2857 sealhash=f13f36..8a4364 hash=4a7a6e..872df7 elapsed=1.278s
+DEBUG[03-30|12:10:18.470] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:18.471] "🔗 block reached canonical chain"        number=2850 hash=c4bb9e..6ec42b
+INFO [03-30|12:10:18.481] Commit new sealing work                  number=2858 sealhash=81b5ca..4a3680 uncles=0 txs=0 gas=0     fees=0          elapsed=10.794ms
+INFO [03-30|12:10:18.483] Commit new sealing work                  number=2858 sealhash=81b5ca..4a3680 uncles=0 txs=0 gas=0     fees=0          elapsed=12.277ms
+INFO [03-30|12:10:18.483] "🔨 mined potential block"                number=2857 hash=4a7a6e..872df7
+INFO [03-30|12:10:18.779] Successfully sealed new block            number=2858 sealhash=81b5ca..4a3680 hash=7e7cdc..723e41 elapsed=308.215ms
+DEBUG[03-30|12:10:18.779] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:18.779] "🔗 block reached canonical chain"        number=2851 hash=2a8b21..61108a
+INFO [03-30|12:10:18.783] Commit new sealing work                  number=2859 sealhash=55e71a..39358e uncles=0 txs=0 gas=0     fees=0          elapsed=4.453ms
+INFO [03-30|12:10:18.784] Commit new sealing work                  number=2859 sealhash=55e71a..39358e uncles=0 txs=0 gas=0     fees=0          elapsed=5.365ms
+INFO [03-30|12:10:18.785] "🔨 mined potential block"                number=2858 hash=7e7cdc..723e41
+INFO [03-30|12:10:18.828] Successfully sealed new block            number=2859 sealhash=55e71a..39358e hash=b64a4b..44c8b8 elapsed=49.079ms
+DEBUG[03-30|12:10:18.828] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:18.828] "🔗 block reached canonical chain"        number=2852 hash=67ecd3..374216
+INFO [03-30|12:10:18.832] Commit new sealing work                  number=2860 sealhash=aa62dd..fab1d6 uncles=0 txs=0 gas=0     fees=0          elapsed=4.055ms
+INFO [03-30|12:10:18.833] Commit new sealing work                  number=2860 sealhash=aa62dd..fab1d6 uncles=0 txs=0 gas=0     fees=0          elapsed=5.178ms
+INFO [03-30|12:10:18.836] "🔨 mined potential block"                number=2859 hash=b64a4b..44c8b8
+INFO [03-30|12:10:19.939] Successfully sealed new block            number=2860 sealhash=aa62dd..fab1d6 hash=6d8d3b..8c64b0 elapsed=1.110s
+DEBUG[03-30|12:10:19.939] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:19.939] "🔗 block reached canonical chain"        number=2853 hash=60b491..cb684f
+INFO [03-30|12:10:19.943] Commit new sealing work                  number=2861 sealhash=5e446f..c45a6c uncles=0 txs=0 gas=0     fees=0          elapsed=4.358ms
+INFO [03-30|12:10:19.944] Commit new sealing work                  number=2861 sealhash=5e446f..c45a6c uncles=0 txs=0 gas=0     fees=0          elapsed=5.432ms
+INFO [03-30|12:10:19.946] "🔨 mined potential block"                number=2860 hash=6d8d3b..8c64b0
+INFO [03-30|12:10:19.993] Successfully sealed new block            number=2861 sealhash=5e446f..c45a6c hash=dd7be7..01a9fb elapsed=54.266ms
+DEBUG[03-30|12:10:19.993] Reinjecting stale transactions           count=0
+INFO [03-30|12:10:19.993] "🔗 block reached canonical chain"        number=2854 hash=187def..9bb926
+INFO [03-30|12:10:19.998] Commit new sealing work                  number=2862 sealhash=75cb98..115815 uncles=0 txs=0 gas=0     fees=0          elapsed=4.926ms
+INFO [03-30|12:10:20.001] Commit new sealing work                  number=2862 sealhash=75cb98..115815 uncles=0 txs=0 gas=0     fees=0          elapsed=7.199ms
+INFO [03-30|12:10:20.002] "🔨 mined potential block"                number=2861 hash=dd7be7..01a9fb
+DEBUG[03-30|12:10:21.208] FS scan times                            list="87.625µs"  set="28.5µs"   diff="3.25µs"
+INFO [03-30|12:10:21.350] Got interrupt, shutting down... 
+DEBUG[03-30|12:10:21.352] RPC server shutting down 
+INFO [03-30|12:10:21.353] HTTP server stopped                      endpoint=127.0.0.1:8545
+DEBUG[03-30|12:10:21.354] RPC server shutting down 
+INFO [03-30|12:10:21.356] HTTP server stopped                      endpoint=127.0.0.1:8546
+DEBUG[03-30|12:10:21.357] RPC server shutting down 
+DEBUG[03-30|12:10:21.358] RPC server shutting down 
+INFO [03-30|12:10:21.361] HTTP server stopped                      endpoint=127.0.0.1:8551
+DEBUG[03-30|12:10:21.363] RPC server shutting down 
+DEBUG[03-30|12:10:21.362] RPC connection read error                err=EOF
+INFO [03-30|12:10:21.364] IPC endpoint closed                      url=/App/vultron/geth/ethereum/geth.ipc
+DEBUG[03-30|12:10:21.366] RPC server shutting down 
+DEBUG[03-30|12:10:21.368] RPC connection read error                err=EOF
+INFO [03-30|12:10:21.368] Ethereum protocol stopped 
+INFO [03-30|12:10:21.370] Transaction pool stopped 
+DEBUG[03-30|12:10:21.371] Journalled generator progress            progress=done
+DEBUG[03-30|12:10:21.372] Journalled disk layer                    root=592a91..848667
+DEBUG[03-30|12:10:21.373] Journalled diff layer                    root=fb46d8..005496 parent=592a91..848667
+DEBUG[03-30|12:10:21.374] Journalled diff layer                    root=0fddd1..5cba13 parent=fb46d8..005496
+DEBUG[03-30|12:10:21.375] Journalled diff layer                    root=402bd3..c50d36 parent=0fddd1..5cba13
+DEBUG[03-30|12:10:21.376] Journalled diff layer                    root=dad289..e8a9a4 parent=402bd3..c50d36
+DEBUG[03-30|12:10:21.377] Journalled diff layer                    root=d43089..c92e68 parent=dad289..e8a9a4
+DEBUG[03-30|12:10:21.379] Journalled diff layer                    root=c2f18f..56c4c6 parent=d43089..c92e68
+DEBUG[03-30|12:10:21.380] Journalled diff layer                    root=f3e2e4..89b08a parent=c2f18f..56c4c6
+DEBUG[03-30|12:10:21.381] Journalled diff layer                    root=d69f8d..ee3f00 parent=f3e2e4..89b08a
+DEBUG[03-30|12:10:21.381] Journalled diff layer                    root=5624aa..b627a1 parent=d69f8d..ee3f00
+DEBUG[03-30|12:10:21.382] Journalled diff layer                    root=89874a..6ca821 parent=5624aa..b627a1
+DEBUG[03-30|12:10:21.383] Journalled diff layer                    root=9ca666..b85c88 parent=89874a..6ca821
+DEBUG[03-30|12:10:21.384] Journalled diff layer                    root=5d21a9..f35153 parent=9ca666..b85c88
+DEBUG[03-30|12:10:21.385] Journalled diff layer                    root=02d83d..5eab0c parent=5d21a9..f35153
+DEBUG[03-30|12:10:21.385] Journalled diff layer                    root=08e1e1..fad58c parent=02d83d..5eab0c
+DEBUG[03-30|12:10:21.386] Journalled diff layer                    root=438e09..270a2d parent=08e1e1..fad58c
+DEBUG[03-30|12:10:21.387] Journalled diff layer                    root=99af8e..9d2b0a parent=438e09..270a2d
+DEBUG[03-30|12:10:21.388] Journalled diff layer                    root=aaa1b5..a337f6 parent=99af8e..9d2b0a
+DEBUG[03-30|12:10:21.389] Journalled diff layer                    root=5144c6..ea09e7 parent=aaa1b5..a337f6
+DEBUG[03-30|12:10:21.389] Journalled diff layer                    root=978f8f..df2441 parent=5144c6..ea09e7
+DEBUG[03-30|12:10:21.391] Journalled diff layer                    root=0c59ee..7b3b04 parent=978f8f..df2441
+DEBUG[03-30|12:10:21.393] Journalled diff layer                    root=65fea8..fc0022 parent=0c59ee..7b3b04
+DEBUG[03-30|12:10:21.394] Journalled diff layer                    root=b95b3f..020ba9 parent=65fea8..fc0022
+DEBUG[03-30|12:10:21.395] Journalled diff layer                    root=7ecec8..fdfa1f parent=b95b3f..020ba9
+DEBUG[03-30|12:10:21.395] Journalled diff layer                    root=630bd3..56e602 parent=7ecec8..fdfa1f
+DEBUG[03-30|12:10:21.396] Journalled diff layer                    root=d4a854..0a2bec parent=630bd3..56e602
+DEBUG[03-30|12:10:21.397] Journalled diff layer                    root=901ab1..95aba7 parent=d4a854..0a2bec
+DEBUG[03-30|12:10:21.398] Journalled diff layer                    root=c9b3b2..14ebbf parent=901ab1..95aba7
+DEBUG[03-30|12:10:21.398] Journalled diff layer                    root=fd56bc..dd5043 parent=c9b3b2..14ebbf
+DEBUG[03-30|12:10:21.399] Journalled diff layer                    root=8f22b2..e37987 parent=fd56bc..dd5043
+DEBUG[03-30|12:10:21.400] Journalled diff layer                    root=d96560..c145af parent=8f22b2..e37987
+DEBUG[03-30|12:10:21.401] Journalled diff layer                    root=d09c9f..ec2e78 parent=d96560..c145af
+DEBUG[03-30|12:10:21.401] Journalled diff layer                    root=201d66..fe03fc parent=d09c9f..ec2e78
+DEBUG[03-30|12:10:21.402] Journalled diff layer                    root=c37b4d..b1ad3a parent=201d66..fe03fc
+DEBUG[03-30|12:10:21.404] Journalled diff layer                    root=c505ab..89606e parent=c37b4d..b1ad3a
+DEBUG[03-30|12:10:21.405] Journalled diff layer                    root=cf06b0..d5b2ac parent=c505ab..89606e
+DEBUG[03-30|12:10:21.405] Journalled diff layer                    root=0020a5..4f5997 parent=cf06b0..d5b2ac
+DEBUG[03-30|12:10:21.406] Journalled diff layer                    root=f777d4..acfe19 parent=0020a5..4f5997
+DEBUG[03-30|12:10:21.407] Journalled diff layer                    root=f75d30..dc3502 parent=f777d4..acfe19
+DEBUG[03-30|12:10:21.408] Journalled diff layer                    root=6ae7ae..e570a8 parent=f75d30..dc3502
+DEBUG[03-30|12:10:21.408] Journalled diff layer                    root=59bc4c..13a1fb parent=6ae7ae..e570a8
+DEBUG[03-30|12:10:21.409] Journalled diff layer                    root=660408..ed8df4 parent=59bc4c..13a1fb
+DEBUG[03-30|12:10:21.410] Journalled diff layer                    root=b63692..2deecb parent=660408..ed8df4
+DEBUG[03-30|12:10:21.410] Journalled diff layer                    root=ad0a38..a6b67c parent=b63692..2deecb
+DEBUG[03-30|12:10:21.411] Journalled diff layer                    root=34be97..b85a06 parent=ad0a38..a6b67c
+DEBUG[03-30|12:10:21.412] Journalled diff layer                    root=aba2f9..891985 parent=34be97..b85a06
+DEBUG[03-30|12:10:21.413] Journalled diff layer                    root=8a1edc..e62afc parent=aba2f9..891985
+DEBUG[03-30|12:10:21.414] Journalled diff layer                    root=2f39c7..89e0ff parent=8a1edc..e62afc
+DEBUG[03-30|12:10:21.415] Journalled diff layer                    root=218e6d..4e27aa parent=2f39c7..89e0ff
+DEBUG[03-30|12:10:21.415] Journalled diff layer                    root=354165..a82a20 parent=218e6d..4e27aa
+DEBUG[03-30|12:10:21.417] Journalled diff layer                    root=865e61..8752ba parent=354165..a82a20
+DEBUG[03-30|12:10:21.418] Journalled diff layer                    root=2def79..60a37d parent=865e61..8752ba
+DEBUG[03-30|12:10:21.419] Journalled diff layer                    root=74876e..5a7a2a parent=2def79..60a37d
+DEBUG[03-30|12:10:21.420] Journalled diff layer                    root=83ff52..d1ce26 parent=74876e..5a7a2a
+DEBUG[03-30|12:10:21.421] Journalled diff layer                    root=e43970..4430d0 parent=83ff52..d1ce26
+DEBUG[03-30|12:10:21.422] Journalled diff layer                    root=b8ad3f..b5bb59 parent=e43970..4430d0
+DEBUG[03-30|12:10:21.422] Journalled diff layer                    root=b95acd..7744e6 parent=b8ad3f..b5bb59
+DEBUG[03-30|12:10:21.423] Journalled diff layer                    root=30e8d0..342f81 parent=b95acd..7744e6
+DEBUG[03-30|12:10:21.424] Journalled diff layer                    root=78ccc3..32c764 parent=30e8d0..342f81
+DEBUG[03-30|12:10:21.425] Journalled diff layer                    root=8e7030..fe1f6d parent=78ccc3..32c764
+DEBUG[03-30|12:10:21.425] Journalled diff layer                    root=7725df..99f0ba parent=8e7030..fe1f6d
+DEBUG[03-30|12:10:21.426] Journalled diff layer                    root=3af164..529dbc parent=7725df..99f0ba
+DEBUG[03-30|12:10:21.427] Journalled diff layer                    root=f8bb95..f327ea parent=3af164..529dbc
+DEBUG[03-30|12:10:21.428] Journalled diff layer                    root=1776b6..dc6da4 parent=f8bb95..f327ea
+DEBUG[03-30|12:10:21.429] Journalled diff layer                    root=2076be..ced5ec parent=1776b6..dc6da4
+DEBUG[03-30|12:10:21.431] Journalled diff layer                    root=4dcae1..d68b52 parent=2076be..ced5ec
+DEBUG[03-30|12:10:21.431] Journalled diff layer                    root=067fc9..eb026e parent=4dcae1..d68b52
+DEBUG[03-30|12:10:21.432] Journalled diff layer                    root=d8577c..8aa032 parent=067fc9..eb026e
+DEBUG[03-30|12:10:21.433] Journalled diff layer                    root=7afd03..a50905 parent=d8577c..8aa032
+DEBUG[03-30|12:10:21.434] Journalled diff layer                    root=ade60e..450f56 parent=7afd03..a50905
+DEBUG[03-30|12:10:21.435] Journalled diff layer                    root=f15504..da5882 parent=ade60e..450f56
+DEBUG[03-30|12:10:21.435] Journalled diff layer                    root=23d5ba..f8d2e3 parent=f15504..da5882
+DEBUG[03-30|12:10:21.436] Journalled diff layer                    root=2e8a89..d32518 parent=23d5ba..f8d2e3
+DEBUG[03-30|12:10:21.437] Journalled diff layer                    root=48e981..9e1105 parent=2e8a89..d32518
+DEBUG[03-30|12:10:21.438] Journalled diff layer                    root=5d942a..205a31 parent=48e981..9e1105
+DEBUG[03-30|12:10:21.439] Journalled diff layer                    root=36c7c4..4eb199 parent=5d942a..205a31
+DEBUG[03-30|12:10:21.439] Journalled diff layer                    root=f3b533..48a1d5 parent=36c7c4..4eb199
+DEBUG[03-30|12:10:21.440] Journalled diff layer                    root=6c3b85..fc64ec parent=f3b533..48a1d5
+DEBUG[03-30|12:10:21.442] Journalled diff layer                    root=0364e7..406114 parent=6c3b85..fc64ec
+DEBUG[03-30|12:10:21.442] Journalled diff layer                    root=9746e9..1b764c parent=0364e7..406114
+DEBUG[03-30|12:10:21.443] Journalled diff layer                    root=fd2064..841774 parent=9746e9..1b764c
+DEBUG[03-30|12:10:21.444] Journalled diff layer                    root=247e30..f1f2c0 parent=fd2064..841774
+DEBUG[03-30|12:10:21.445] Journalled diff layer                    root=d6aa2f..39b67c parent=247e30..f1f2c0
+DEBUG[03-30|12:10:21.446] Journalled diff layer                    root=f0ac95..f11ea7 parent=d6aa2f..39b67c
+DEBUG[03-30|12:10:21.447] Journalled diff layer                    root=46011d..4b26b6 parent=f0ac95..f11ea7
+DEBUG[03-30|12:10:21.448] Journalled diff layer                    root=81e4eb..451abf parent=46011d..4b26b6
+DEBUG[03-30|12:10:21.449] Journalled diff layer                    root=aaea1c..6f8d6e parent=81e4eb..451abf
+DEBUG[03-30|12:10:21.449] Journalled diff layer                    root=3c0144..391219 parent=aaea1c..6f8d6e
+DEBUG[03-30|12:10:21.450] Journalled diff layer                    root=eaf3a0..6bfd91 parent=3c0144..391219
+DEBUG[03-30|12:10:21.451] Journalled diff layer                    root=8c039f..468a75 parent=eaf3a0..6bfd91
+DEBUG[03-30|12:10:21.451] Journalled diff layer                    root=1a623c..e5591e parent=8c039f..468a75
+DEBUG[03-30|12:10:21.452] Journalled diff layer                    root=068af3..0732fd parent=1a623c..e5591e
+DEBUG[03-30|12:10:21.453] Journalled diff layer                    root=7f3671..356952 parent=068af3..0732fd
+DEBUG[03-30|12:10:21.454] Journalled diff layer                    root=46b965..6ad802 parent=7f3671..356952
+DEBUG[03-30|12:10:21.455] Journalled diff layer                    root=33ec1f..ebcb5a parent=46b965..6ad802
+DEBUG[03-30|12:10:21.456] Journalled diff layer                    root=c1ecc1..6b18db parent=33ec1f..ebcb5a
+DEBUG[03-30|12:10:21.458] Journalled diff layer                    root=d3f92f..deab86 parent=c1ecc1..6b18db
+DEBUG[03-30|12:10:21.459] Journalled diff layer                    root=2eeee4..e4b540 parent=d3f92f..deab86
+DEBUG[03-30|12:10:21.460] Journalled diff layer                    root=9302b1..25de80 parent=2eeee4..e4b540
+DEBUG[03-30|12:10:21.460] Journalled diff layer                    root=ce9e6f..afda46 parent=9302b1..25de80
+DEBUG[03-30|12:10:21.461] Journalled diff layer                    root=d5bf71..c72cd8 parent=ce9e6f..afda46
+DEBUG[03-30|12:10:21.462] Journalled diff layer                    root=38b74a..b1105a parent=d5bf71..c72cd8
+DEBUG[03-30|12:10:21.463] Journalled diff layer                    root=da6682..76859c parent=38b74a..b1105a
+DEBUG[03-30|12:10:21.463] Journalled diff layer                    root=606f10..7d2eab parent=da6682..76859c
+DEBUG[03-30|12:10:21.464] Journalled diff layer                    root=9d1628..fbf82d parent=606f10..7d2eab
+DEBUG[03-30|12:10:21.465] Journalled diff layer                    root=5365cd..1f392d parent=9d1628..fbf82d
+DEBUG[03-30|12:10:21.466] Journalled diff layer                    root=fa0691..65114f parent=5365cd..1f392d
+DEBUG[03-30|12:10:21.466] Journalled diff layer                    root=59e3bc..b33850 parent=fa0691..65114f
+DEBUG[03-30|12:10:21.468] Journalled diff layer                    root=fa3e7e..2b019b parent=59e3bc..b33850
+DEBUG[03-30|12:10:21.469] Journalled diff layer                    root=b70418..185ed5 parent=fa3e7e..2b019b
+DEBUG[03-30|12:10:21.470] Journalled diff layer                    root=611fee..201468 parent=b70418..185ed5
+DEBUG[03-30|12:10:21.470] Journalled diff layer                    root=a4c34b..30e346 parent=611fee..201468
+DEBUG[03-30|12:10:21.471] Journalled diff layer                    root=e637e7..8b16e4 parent=a4c34b..30e346
+DEBUG[03-30|12:10:21.472] Journalled diff layer                    root=173498..bddc64 parent=e637e7..8b16e4
+DEBUG[03-30|12:10:21.472] Journalled diff layer                    root=88b72f..8e5c79 parent=173498..bddc64
+DEBUG[03-30|12:10:21.473] Journalled diff layer                    root=8ff586..aa105f parent=88b72f..8e5c79
+DEBUG[03-30|12:10:21.474] Journalled diff layer                    root=0fad2a..1c6811 parent=8ff586..aa105f
+DEBUG[03-30|12:10:21.474] Journalled diff layer                    root=7ad53c..5502b5 parent=0fad2a..1c6811
+DEBUG[03-30|12:10:21.475] Journalled diff layer                    root=5fcd8d..a3f854 parent=7ad53c..5502b5
+DEBUG[03-30|12:10:21.476] Journalled diff layer                    root=fec120..d266e7 parent=5fcd8d..a3f854
+DEBUG[03-30|12:10:21.476] Journalled diff layer                    root=50a6c3..3195ec parent=fec120..d266e7
+DEBUG[03-30|12:10:21.477] Journalled diff layer                    root=637bc7..e280b7 parent=50a6c3..3195ec
+DEBUG[03-30|12:10:21.478] Journalled diff layer                    root=6b3455..d5018e parent=637bc7..e280b7
+DEBUG[03-30|12:10:21.478] Journalled diff layer                    root=9f7162..f8efa8 parent=6b3455..d5018e
+DEBUG[03-30|12:10:21.480] Journalled diff layer                    root=a1f6d8..09a51c parent=9f7162..f8efa8
+DEBUG[03-30|12:10:21.481] Journalled diff layer                    root=9f8e5f..9e7bd4 parent=a1f6d8..09a51c
+DEBUG[03-30|12:10:21.482] Journalled diff layer                    root=98f713..6cd668 parent=9f8e5f..9e7bd4
+DEBUG[03-30|12:10:21.482] Journalled diff layer                    root=14eab7..16f9cf parent=98f713..6cd668
+DEBUG[03-30|12:10:21.483] Journalled diff layer                    root=66f925..cbf330 parent=14eab7..16f9cf
+DEBUG[03-30|12:10:21.484] Journalled diff layer                    root=c88f14..a6f41b parent=66f925..cbf330
+INFO [03-30|12:10:21.485] Writing cached state to disk             block=2861 hash=dd7be7..01a9fb root=c88f14..a6f41b
+INFO [03-30|12:10:21.486] Persisted trie from memory database      nodes=8 size=1.25KiB time="223.333µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=221 livesize=41.08KiB
+INFO [03-30|12:10:21.487] Writing cached state to disk             block=2860 hash=6d8d3b..8c64b0 root=66f925..cbf330
+INFO [03-30|12:10:21.489] Persisted trie from memory database      nodes=4 size=770.00B time="57.208µs"  gcnodes=0 gcsize=0.00B gctime=0s livenodes=217 livesize=40.32KiB
+INFO [03-30|12:10:21.490] Writing cached state to disk             block=2734 hash=a7408b..d4e34f root=0fddd1..5cba13
+INFO [03-30|12:10:21.491] Persisted trie from memory database      nodes=0 size=0.00B   time="3µs"       gcnodes=0 gcsize=0.00B gctime=0s livenodes=217 livesize=40.32KiB
+INFO [03-30|12:10:21.492] Writing snapshot state to disk           root=592a91..848667
+INFO [03-30|12:10:21.493] Persisted trie from memory database      nodes=0 size=0.00B   time="1.875µs"   gcnodes=0 gcsize=0.00B gctime=0s livenodes=217 livesize=40.32KiB
+DEBUG[03-30|12:10:21.494] Dereferenced trie from memory database   nodes=4 size=738.00B time="4.75µs"    gcnodes=4 gcsize=738.00B gctime="4.5µs" livenodes=213 livesize=39.60KiB
+DEBUG[03-30|12:10:21.495] Dereferenced trie from memory database   nodes=4 size=738.00B time="3.041µs"   gcnodes=8 gcsize=1.44KiB gctime="7.25µs" livenodes=209 livesize=38.88KiB
+DEBUG[03-30|12:10:21.495] Dereferenced trie from memory database   nodes=4 size=738.00B time="3.125µs"   gcnodes=12 gcsize=2.16KiB gctime="10.083µs" livenodes=205 livesize=38.16KiB
+DEBUG[03-30|12:10:21.496] Dereferenced trie from memory database   nodes=4 size=738.00B time="2.25µs"    gcnodes=16 gcsize=2.88KiB gctime="12.166µs" livenodes=201 livesize=37.44KiB
+DEBUG[03-30|12:10:21.497] Dereferenced trie from memory database   nodes=4 size=738.00B time="5.084µs"   gcnodes=20 gcsize=3.60KiB gctime="17.083µs" livenodes=197 livesize=36.72KiB
+DEBUG[03-30|12:10:21.498] Dereferenced trie from memory database   nodes=4 size=738.00B time="2.25µs"    gcnodes=24 gcsize=4.32KiB gctime="19.208µs" livenodes=193 livesize=36.00KiB
+DEBUG[03-30|12:10:21.498] Dereferenced trie from memory database   nodes=4 size=738.00B time="2.292µs"   gcnodes=28 gcsize=5.04KiB gctime="21.333µs" livenodes=189 livesize=35.28KiB
+DEBUG[03-30|12:10:21.499] Dereferenced trie from memory database   nodes=4 size=738.00B time="5.292µs"   gcnodes=32 gcsize=5.77KiB gctime="26.333µs" livenodes=185 livesize=34.56KiB
+DEBUG[03-30|12:10:21.500] Dereferenced trie from memory database   nodes=4 size=738.00B time="3.459µs"   gcnodes=36 gcsize=6.49KiB gctime="29.542µs" livenodes=181 livesize=33.84KiB
+DEBUG[03-30|12:10:21.501] Dereferenced trie from memory database   nodes=4 size=770.00B time="7.791µs"   gcnodes=40 gcsize=7.24KiB gctime="37.167µs" livenodes=177 livesize=33.09KiB
+DEBUG[03-30|12:10:21.502] Dereferenced trie from memory database   nodes=4 size=770.00B time="3.083µs"   gcnodes=44 gcsize=7.99KiB gctime="39.917µs" livenodes=173 livesize=32.33KiB
+DEBUG[03-30|12:10:21.502] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.208µs"   gcnodes=48 gcsize=8.74KiB gctime="41.959µs" livenodes=169 livesize=31.58KiB
+DEBUG[03-30|12:10:21.504] Dereferenced trie from memory database   nodes=4 size=770.00B time="4.25µs"    gcnodes=52 gcsize=9.49KiB gctime="44.959µs" livenodes=165 livesize=30.83KiB
+DEBUG[03-30|12:10:21.505] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.875µs"   gcnodes=56 gcsize=10.25KiB gctime="47.667µs" livenodes=161 livesize=30.08KiB
+DEBUG[03-30|12:10:21.505] Dereferenced trie from memory database   nodes=4 size=770.00B time="5.25µs"    gcnodes=60 gcsize=11.00KiB gctime="51.959µs" livenodes=157 livesize=29.33KiB
+DEBUG[03-30|12:10:21.506] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.708µs"   gcnodes=64 gcsize=11.75KiB gctime="54.417µs" livenodes=153 livesize=28.57KiB
+DEBUG[03-30|12:10:21.507] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.375µs"   gcnodes=68 gcsize=12.50KiB gctime="56.625µs" livenodes=149 livesize=27.82KiB
+DEBUG[03-30|12:10:21.508] Dereferenced trie from memory database   nodes=4 size=770.00B time="3.042µs"   gcnodes=72 gcsize=13.25KiB gctime="59.542µs" livenodes=145 livesize=27.07KiB
+DEBUG[03-30|12:10:21.509] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.333µs"   gcnodes=76 gcsize=14.01KiB gctime="61.709µs" livenodes=141 livesize=26.32KiB
+DEBUG[03-30|12:10:21.511] Dereferenced trie from memory database   nodes=4 size=770.00B time="3.25µs"    gcnodes=80 gcsize=14.76KiB gctime="64.709µs" livenodes=137 livesize=25.57KiB
+DEBUG[03-30|12:10:21.511] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.792µs"   gcnodes=84 gcsize=15.51KiB gctime="67.376µs" livenodes=133 livesize=24.81KiB
+DEBUG[03-30|12:10:21.512] Dereferenced trie from memory database   nodes=4 size=770.00B time="3.042µs"   gcnodes=88 gcsize=16.26KiB gctime="70.21µs"  livenodes=129 livesize=24.06KiB
+DEBUG[03-30|12:10:21.513] Dereferenced trie from memory database   nodes=4 size=770.00B time="7.667µs"   gcnodes=92 gcsize=17.01KiB gctime="77.71µs"  livenodes=125 livesize=23.31KiB
+DEBUG[03-30|12:10:21.514] Dereferenced trie from memory database   nodes=4 size=770.00B time="3.125µs"   gcnodes=96 gcsize=17.77KiB gctime="80.669µs" livenodes=121 livesize=22.56KiB
+DEBUG[03-30|12:10:21.515] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.75µs"    gcnodes=100 gcsize=18.52KiB gctime="83.211µs" livenodes=117 livesize=21.81KiB
+DEBUG[03-30|12:10:21.516] Dereferenced trie from memory database   nodes=4 size=770.00B time="3.042µs"   gcnodes=104 gcsize=19.27KiB gctime="86.045µs" livenodes=113 livesize=21.05KiB
+DEBUG[03-30|12:10:21.517] Dereferenced trie from memory database   nodes=4 size=770.00B time="5.042µs"   gcnodes=108 gcsize=20.02KiB gctime="90.879µs" livenodes=109 livesize=20.30KiB
+DEBUG[03-30|12:10:21.518] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.916µs"   gcnodes=112 gcsize=20.77KiB gctime="93.545µs" livenodes=105 livesize=19.55KiB
+DEBUG[03-30|12:10:21.519] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.208µs"   gcnodes=116 gcsize=21.53KiB gctime="95.586µs" livenodes=101 livesize=18.80KiB
+DEBUG[03-30|12:10:21.520] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.708µs"   gcnodes=120 gcsize=22.28KiB gctime="98.127µs" livenodes=97  livesize=18.05KiB
+DEBUG[03-30|12:10:21.521] Dereferenced trie from memory database   nodes=4 size=770.00B time="5.459µs"   gcnodes=124 gcsize=23.03KiB gctime="103.377µs" livenodes=93  livesize=17.29KiB
+DEBUG[03-30|12:10:21.521] Dereferenced trie from memory database   nodes=4 size=770.00B time="5.458µs"   gcnodes=128 gcsize=23.78KiB gctime="108.669µs" livenodes=89  livesize=16.54KiB
+DEBUG[03-30|12:10:21.522] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.416µs"   gcnodes=132 gcsize=24.53KiB gctime="110.919µs" livenodes=85  livesize=15.79KiB
+DEBUG[03-30|12:10:21.523] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.5µs"     gcnodes=136 gcsize=25.29KiB gctime="113.294µs" livenodes=81  livesize=15.04KiB
+DEBUG[03-30|12:10:21.524] Dereferenced trie from memory database   nodes=4 size=770.00B time="5.625µs"   gcnodes=140 gcsize=26.04KiB gctime="118.627µs" livenodes=77  livesize=14.29KiB
+DEBUG[03-30|12:10:21.525] Dereferenced trie from memory database   nodes=4 size=770.00B time="6.084µs"   gcnodes=144 gcsize=26.79KiB gctime="124.502µs" livenodes=73  livesize=13.54KiB
+DEBUG[03-30|12:10:21.525] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.584µs"   gcnodes=148 gcsize=27.54KiB gctime="126.919µs" livenodes=69  livesize=12.78KiB
+DEBUG[03-30|12:10:21.526] Dereferenced trie from memory database   nodes=4 size=770.00B time="3.417µs"   gcnodes=152 gcsize=28.29KiB gctime="130.127µs" livenodes=65  livesize=12.03KiB
+DEBUG[03-30|12:10:21.527] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.542µs"   gcnodes=156 gcsize=29.04KiB gctime="132.544µs" livenodes=61  livesize=11.28KiB
+DEBUG[03-30|12:10:21.528] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.583µs"   gcnodes=160 gcsize=29.80KiB gctime="134.877µs" livenodes=57  livesize=10.53KiB
+DEBUG[03-30|12:10:21.529] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.875µs"   gcnodes=164 gcsize=30.55KiB gctime="137.586µs" livenodes=53  livesize=9.78KiB
+DEBUG[03-30|12:10:21.531] Dereferenced trie from memory database   nodes=4 size=770.00B time="3µs"       gcnodes=168 gcsize=31.30KiB gctime="140.378µs" livenodes=49  livesize=9.02KiB
+DEBUG[03-30|12:10:21.532] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.708µs"   gcnodes=172 gcsize=32.05KiB gctime="142.92µs"  livenodes=45  livesize=8.27KiB
+DEBUG[03-30|12:10:21.533] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.75µs"    gcnodes=176 gcsize=32.80KiB gctime="145.461µs" livenodes=41  livesize=7.52KiB
+DEBUG[03-30|12:10:21.534] Dereferenced trie from memory database   nodes=4 size=770.00B time="3.042µs"   gcnodes=180 gcsize=33.56KiB gctime="148.336µs" livenodes=37  livesize=6.77KiB
+DEBUG[03-30|12:10:21.534] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.75µs"    gcnodes=184 gcsize=34.31KiB gctime="150.92µs"  livenodes=33  livesize=6.02KiB
+DEBUG[03-30|12:10:21.535] Dereferenced trie from memory database   nodes=4 size=770.00B time="3.458µs"   gcnodes=188 gcsize=35.06KiB gctime="154.212µs" livenodes=29  livesize=5.26KiB
+DEBUG[03-30|12:10:21.535] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.666µs"   gcnodes=192 gcsize=35.81KiB gctime="156.628µs" livenodes=25  livesize=4.51KiB
+DEBUG[03-30|12:10:21.536] Dereferenced trie from memory database   nodes=4 size=770.00B time="5.416µs"   gcnodes=196 gcsize=36.56KiB gctime="161.836µs" livenodes=21  livesize=3.76KiB
+DEBUG[03-30|12:10:21.537] Dereferenced trie from memory database   nodes=4 size=770.00B time="4.625µs"   gcnodes=200 gcsize=37.32KiB gctime="166.295µs" livenodes=17  livesize=3.01KiB
+DEBUG[03-30|12:10:21.538] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.875µs"   gcnodes=204 gcsize=38.07KiB gctime="169.003µs" livenodes=13  livesize=2.26KiB
+DEBUG[03-30|12:10:21.539] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.75µs"    gcnodes=208 gcsize=38.82KiB gctime="171.586µs" livenodes=9   livesize=1.50KiB
+DEBUG[03-30|12:10:21.539] Dereferenced trie from memory database   nodes=4 size=770.00B time="3.166µs"   gcnodes=212 gcsize=39.57KiB gctime="174.586µs" livenodes=5   livesize=770.00B
+DEBUG[03-30|12:10:21.540] Dereferenced trie from memory database   nodes=4 size=770.00B time="2.792µs"   gcnodes=216 gcsize=40.32KiB gctime="177.253µs" livenodes=1   livesize=0.00B
+DEBUG[03-30|12:10:21.541] Dereferenced trie from memory database   nodes=0 size=0.00B   time="1.5µs"     gcnodes=216 gcsize=40.32KiB gctime="178.587µs" livenodes=1   livesize=0.00B
+DEBUG[03-30|12:10:21.542] Dereferenced trie from memory database   nodes=0 size=0.00B   time=750ns       gcnodes=216 gcsize=40.32KiB gctime="179.17µs"  livenodes=1   livesize=0.00B
+INFO [03-30|12:10:21.543] Writing clean trie cache to disk         path=/App/vultron/geth/ethereum/geth/triecache threads=6
+INFO [03-30|12:10:21.546] Persisted the clean trie cache           path=/App/vultron/geth/ethereum/geth/triecache elapsed=2.392ms
+INFO [03-30|12:10:21.548] Blockchain stopped 
+DEBUG[03-30|12:10:21.551] Read error                               err="accept tcp [::]:30303: use of closed network connection"
+DEBUG[03-30|12:10:21.552] Deleting port mapping                    proto=tcp extport=30303 intport=30303 interface="UPnP or NAT-PMP"
